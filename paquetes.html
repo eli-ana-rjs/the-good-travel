@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Agencia de Marketing</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!----- icono para apple y safari -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon.ico">
+    <!-- Font CSS -->
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+		<!-- carga CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+   <!-- Header -->
+   <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+    <div class="container d-flex justify-content-between align-items-center">
+        <a class="navbar-brand h1" href="index.html">
+            <i class="bi bi-emoji-laughing"></i>
+       <span class="text-dark title-app fw-bold h3">The Good Travel</span></a>
+       
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-menu-app"></i>
+        </button>
+
+        <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
+            <div class="flex-fill mx-xl-5 mb-2">
+                <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                   <li class="nav-item">
+                        <a class="nav-link btn-outline-dark rounded-pill px-3" href="index.html">Home</a>
+                    <!-- px = padding y mx es el margin 
+                    rounded-pill =genera ese boton con bordes redondeados rounded-circle-->	
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-outline-dark rounded-pill px-3" href="about.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-outline-dark rounded-pill px-3" href="paquetes.html">Paquetes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-outline-dark rounded-pill px-3" href="vuelos.html">Vuelos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-outline-dark rounded-pill px-3" href="contact.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar align-self-center d-flex">
+                <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-dark'></i></a>
+                <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-dark'></i></a>
+                <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-dark'></i></a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- Close Header -->
+
+
+    <!-- Start Banner Hero -->
+    <div id="work_banner" class="banner-wrapper bg-light w-100 py-5 py-aux">
+        <div class="banner-vertical-center-work container text-dark d-flex justify-content-center align-items-center py-5 py-aux p-0">
+            <div class="banner-content col-lg-8 col-12 m-lg-auto text-center">
+                <h1 class="banner-heading h2 display-3 pb-5 pb-aux semi-bold-600 ">Nuestros Paquetes Turísticos</h1>
+                <h3 class="h4 pb-2 regular-600 ">Viví unas vacaciones soñadas preocupándote solo de disfrutar.</h3>
+                <p class="banner-body pb-2 size">
+                    Te traemos los mejores paquetes turísticos para que tus vacaciones sean insuperables sin pagar de más. Ya podés buscar tu paquete de viajes 2021 al mejor pecio y anticiparte a tus vacaciones. Contamos con paquetes de viaje en oferta, paquetes all inclusive, paquetes a Brasil, paquetes a Punta Cana, experiencias increíbles en el Caribe, Europa, Cuba y muchos destinos más al mejor precio y con atención personalizada.
+                </p>
+               <a href="contact.html"><button type="submit" class="btn rounded-pill btn-outline-dark px-4 me-4  fw-bold btn-consultas">Consultas</button></a>
+             <a href="about.html"><button type="submit" class="btn rounded-pill bg-pack text-dark px-4  fw-bold btn-somos">Quienes Somos</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- End Banner Hero -->
+
+    <!-- Start Our Work -->
+    <section class="container py-5 contenido">
+        <div class="row justify-content-center my-5">
+            <div class="filter-btns shadow-md rounded-pill text-center col-auto">
+                <a class="filter-btn btn rounded-pill btn-outline-dark border-0 m-md-2 px-md-4 active" data-filter=".project" href="#">Todos</a>
+                <a class="filter-btn btn rounded-pill btn-outline-dark border-0 m-md-2 px-md-4" data-filter=".business" href="#">Paquetes en Oferta</a>
+                <a class="filter-btn btn rounded-pill btn-outline-dark border-0 m-md-2 px-md-4" data-filter=".marketing" href="#">Paquetes All Inclusive</a>
+                <a class="filter-btn btn rounded-pill btn-outline-dark border-0 m-md-2 px-md-4" data-filter=".social" href="#">Paquetes con Auto</a>
+                <a class="filter-btn btn rounded-pill btn-outline-dark border-0 m-md-2 px-md-4" data-filter=".graphic" href="#">Escapadas</a>
+            </div>
+        </div>
+
+        <div class="row projects gx-lg-5">
+            <a href="#" class="col-sm-6 col-lg-4 text-decoration-none project marketing social business">
+                <div class="service-work overflow-hidden card mb-5 mx-5 m-sm-0">
+                    <img class="card-img-top" src="./assets/img/card1.png" alt="Punta Cana">
+                    <div class="card-body">
+                        <h5 class="card-title  text-dark">Paquete <strong>All Inclusive</strong> </h5>
+                        <p class="card-text  text-dark">
+                            Punta Cana
+                            <br>
+                            <span>8 días/7 noches</span>
+                        </p>
+                        <span class="text-decoration-none text-info ">
+                            $191.295 <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="col-sm-6 col-lg-4 text-decoration-none project graphic social">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/card3.png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title  text-dark">Paquetes <strong>en Oferta</strong> </h5>
+                        <p class="card-text  text-dark">
+                            Maiami - ¡ Vuelo + Hotel!
+                            <br>
+                            <span>8 días/7 noches</span>
+                        </p>
+                        <span class="text-decoration-none text-info ">
+                              $187.431 <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="col-sm-6 col-lg-4 text-decoration-none project marketing graphic business">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/card4.png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title  text-dark">Paquetes <strong>con Auto</strong> </h5>
+                        <p class="card-text  text-dark">
+                            Mendoza - ¡Paquete Flexible!
+                            <br>
+                            <span>4 días/3 noches</span>
+                            
+                        </p>
+                        <span class="text-decoration-none text-info ">
+                              $29.974 <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="col-sm-6 col-lg-4 text-decoration-none project social business">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/card2.png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title  text-dark"><strong>Escapadas</strong> </h5>
+                        <p class="card-text  text-dark">
+                            Puesto Viejo Estancia
+                            <br>
+                            <span>2 días/1 noche</span>
+                        </p>
+                        <span class="text-decoration-none text-info ">
+                              $23.882 <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="col-sm-6 col-lg-4 text-decoration-none project marketing">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/card5.png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title  text-dark">Paquete <strong>All Inclusive</strong> </h5>
+                        <p class="card-text  text-dark">
+                            Riviera Maya
+                            <br>
+                            <span>11 días/10 noches</span>
+                        </p>
+                        <span class="text-decoration-none text-info ">
+                              $242.991 <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="col-sm-6 col-lg-4 text-decoration-none project marketing graphic">
+                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+                    <img class="card-img-top" src="./assets/img/card6.png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title  text-dark">Paquetes <strong>en Oferta</strong> </h5>
+                        <p class="card-text  text-dark">
+                            El Calafate
+                            <br>
+                            <span>4 días/3 noches</span>
+                        </p>
+                        <span class="text-decoration-none text-info ">
+                              $27.809 <i class='bx bxs-hand-right ms-1'></i>
+                          </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <div class="btn-toolbar justify-content-center pb-4" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group me-2" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-dark text-white">Ant.</button>
+                </div>
+                <div class="btn-group me-2" role="group" aria-label="Second group">
+                    <button type="button" class="btn btn-light">1</button>
+                </div>
+                <div class="btn-group me-2" role="group" aria-label="Second group">
+                    <button type="button" class="btn btn-dark text-white">2</button>
+                </div>
+                <div class="btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-dark text-white">Sig.</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Work -->
+
+    <!-- Start Feature Work -->
+    <section class="bg-light py-5">
+        <div class="feature-work container my-4">
+            <div class="row d-flex d-flex align-items-center">
+                <div class="col-lg-5">
+                    <h1 class="feature-work-heading py-3  quote-package">El mundo es enorme para quedarnos parados en el mismo lugar </h1>
+                    <p class="feature-work-body text-muted ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <p class="feature-work-footer text-muted ">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
+                </div>
+                <div class="col-lg-6 offset-lg-1 align-left">
+                    <div class="row">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="./assets/img/feature-work-1-large.jpg">
+                            <img class="img-fluid" src="./assets/img/viaje1.png">
+                        </a>
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="./assets/img/feature-work-2-large.jpg">
+                            <img class="img-fluid" src="./assets/img/viaje2.png">
+                        </a>
+                    </div>
+                    <div class="row pt-4">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="./assets/img/feature-work-3-large.jpg">
+                            <img class="img-fluid" src="./assets/img/viaje3.png">
+                        </a>
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="./assets/img/feature-work-4-large.jpg">
+                            <img class="img-fluid" src="./assets/img/viaje4.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Feature Work -->
+
+
+    <!-- Start Footer -->
+    <footer class="bg-list pt-4">
+        <div class="container">
+            <div class="row py-4">
+
+                <div class="col-lg-3 col-12 align-left">
+                    <a class="navbar-brand" href="index.html">
+                        <i class="bi bi-emoji-laughing text-dark h3"></i>
+
+                        <span class="text-dark h5">The Good Travel</span>
+                    </a>
+                    <p class="text-dark my-lg-4 my-2">
+                        No dudes en contactarnos, podemos ayudarte a concretar tu viaje soñado
+                    </p>
+                    <div class="container p-4 pb-0">
+                        <section class="mb-4">
+                            <!-- Facebook -->
+                            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i
+                                    class="fab fa-facebook-f"></i></a>
+
+                            <!-- Twitter -->
+                            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i
+                                    class="fab fa-twitter"></i></a>
+
+                            <!-- Whatsapp -->
+                            <a class="btn btn-outline-dark btn-floating m-1 fw-bold" href="#!" role="button"><i
+                                    class="fab fa-whatsapp "></i></a>
+
+                            <!-- Instagram -->
+                            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i
+                                    class="fab fa-instagram"></i></a>
+
+                        </section>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h3 class="h4 pb-lg-3 text-dark ">Nuestra Agencia</h2>
+                        <ul class="list-unstyled text-dark ">
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                    class="text-decoration-none text-dark" href="index.html">Home</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                    class="text-decoration-none text-dark py-1" href="about.html">Nosotros</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                    class="text-decoration-none text-dark py-1" href="work.html">Servicios</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a
+                                    class="text-decoration-none text-dark py-1" href="pricing.html">Vuelos</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                    class="text-decoration-none text-dark py-1" href="contact.html">Contáctanos</a>
+                            </li>
+                        </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-dark ">Nuestros servicios</h2>
+                    <ul class="list-unstyled text-dark ">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-dark py-1" href="#">Paquetes turísticos</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-dark py-1" href="#">Cruceros</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-dark py-1" href="#">Vuelos a todo el mundo</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-dark py-1" href="#">Hoteles</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-dark py-1" href="#">Viajes en oferta</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-dark py-1" href="#">Alquiler de auto</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-dark ">Atendemos en:</h2>
+                    <ul class="list-unstyled text-dark ">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-dark py-1"
+                                href="tel:010-020-0340">023-2644-4569</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-dark py-1"
+                                href="mailto:info@thegoodtravel.com">info@thegoodtravel.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-100 bg-footer py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center text-dark ">
+                            © Copyright 2021 The Good Travel. Todos los derechos reservados.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center text-dark ">
+                            Diseñado por <a rel="sponsored" class="text-decoration-none text-dark"
+                                href="https://cursophp.com.ar/" target="_blank"><strong>CAC FullStack by Eliana R.
+                                    ❤</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Lightbox -->
+    <script src="assets/js/fslightbox.js"></script>
+    <script>
+        fsLightboxInstances['gallery'].props.loadOnlyCurrentSource = true;
+    </script>
+    <!-- Load jQuery require for isotope -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Isotope -->
+    <script src="assets/js/isotope.pkgd.js"></script>
+    <!-- Page Script -->
+    <script>
+        $(window).load(function() {
+            // init Isotope
+            var $projects = $('.projects').isotope({
+                itemSelector: '.project',
+                layoutMode: 'fitRows'
+            });
+            $(".filter-btn").click(function() {
+                var data_filter = $(this).attr("data-filter");
+                $projects.isotope({
+                    filter: data_filter
+                });
+                $(".filter-btn").removeClass("active");
+                $(".filter-btn").removeClass("shadow");
+                $(this).addClass("active");
+                $(this).addClass("shadow");
+                return false;
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

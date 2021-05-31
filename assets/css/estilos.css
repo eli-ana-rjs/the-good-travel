@@ -1,0 +1,368 @@
+/*
+---------------------------------------------
+Índice
+------------------------------------------------
+1. Typography
+2. Main Nav
+3. Home
+4. About
+5. Work
+6. Single Work
+7. Pricing
+8. Contact
+--------------------------------------------- */
+
+@font-face {
+  font-family:'haiskey';
+  font-style: normal;
+  font-weight: 400;
+  src: local('haiskey'), url(../fonts/Haiskey.ttf);
+}
+
+@font-face {
+  font-family:'travel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('travel'),url(../fonts/Travel.otf);
+}
+
+@font-face {
+  font-family:'code';
+  font-style: normal;
+  font-weight: 400;
+  src: local('code'),url(../fonts/CODE\ Light.otf);
+}
+
+@font-face {
+  font-family:'geo';
+  font-style: normal;
+  font-weight: 600;
+  src: local('geo'),url(../fonts/GeosansLight-Oblique.ttf);
+}
+
+@font-face {
+  font-family:'lucky';
+  font-style: normal;
+  font-weight: 600;
+  src: local('lucky'),url(../fonts/Lucky\ Boss.ttf);
+}
+
+html {font-family: 'Open Sans', sans-serif;}
+/* Typography */
+p, a {font-weight: 400;}
+.h2 {
+  font-size: 40px;
+  font-weight: 600;
+font-family: 'code';
+}
+.h3 {font-size: 28px;}
+.light-300 {
+  font-family: 'geo', sans-serif !important;
+  font-weight: 300;
+}
+.regular-400 {
+  font-family: 'geo', sans-serif !important;
+  font-weight: 400;
+}
+.semi-bold-600 {
+  font-family: 'code', sans-serif !important;
+  font-weight: 600;
+}
+.typo-space-line::after,
+.typo-space-line-center::after {
+  content: "";
+  width: 150px;
+  display:block;
+  position: absolute;
+  border-bottom:  5px solid #34eaf7;
+  padding-top: .5em;
+}
+.typo-space-line-center::after {
+  left: 50%;
+  margin-left: -75px;
+}
+
+/* Main Nav */
+#main_nav .nav-item .nav-link:hover {color: #fff;}
+/* Home */
+#index_banner {
+  background-image: url('./../img/banner-carrusel.png');
+  background-position: center center; background-size: cover;
+  height: 100%;
+  min-height: 60vh;
+  width: 100%;
+}
+#index_banner .carousel-item {
+  min-height: 60vh;
+}
+#index_banner .carousel-control-prev i,
+#index_banner .carousel-control-next i {
+  color: #0b1414 !important;
+  text-decoration: none;
+  font-size: 4em;
+}
+#index_banner .carousel-inner {
+  height: 80vh;
+}
+#index_banner .carousel-indicators li,
+#index_banner .carousel-indicators.active {
+  background-color: #34eaf7 !important;
+  /* // las rayas de abajo del carrousel van de color azul */
+}
+.title-app{
+  font-family: 'travel' ;
+}
+.bg-list{
+  background-color: rgba(158, 232, 245, 0.664) !important;
+}
+.btn-todo{
+  background-color:  rgba(183, 245, 91, 0.747) !important;
+}
+
+.bg-footer{
+  background-color:  #34eaf7;
+}
+
+.text-icon{
+  color: #59f1f1;
+  font-weight: 300;
+}
+
+.service-wrapper .service-footer {
+  max-width: 720px;
+}
+.service-work.card {
+  border-radius: 10px !important;
+  cursor: pointer;
+}
+.service-work .service-work-vertical {
+	background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 33.33%, rgba(255,255,255,1) 66.66%, rgba(255,255,255,0) 99.99%);
+  background-size: 300% 300%;
+  background-position: 0% 100%;
+  transition: .5s;
+}
+.service-work .service-work-vertical:hover {
+  background-position: 0% 0%;
+  transition: .5s;
+}
+.service-work .service-work-vertical:hover * {
+  color: #000;
+  border-color: #000;
+  transition: .5s;
+}
+.recent-work.card{
+  border-radius: 10px !important;
+}
+.recent-work .recent-work-vertical {
+	background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 33.333%, rgb(205, 231, 252) 66.666%, rgba(255,255,255,0) 99.999%);
+  background-size: 300% 300%;
+  background-position: 0% 100%;
+  transition: .5s;
+  cursor: pointer;
+}
+.recent-work .recent-work-vertical:hover {
+  background-position: 0% 0%;
+  transition: .5s;
+}
+.recent-work .recent-work-vertical:hover div.recent-work-content {
+  top: 50%;
+  margin-top: -2.5em;
+  position: absolute;
+}
+.recent-work .recent-work-vertical:hover * {
+  color: white;
+  transition: .5s;
+}
+.subtitle{
+  font-size: 1.5rem;
+}
+/* About */
+#work_banner {
+  background-image: url('./../img/fondo2.png');
+  background-position: center center; background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.bg-pack{
+  background-color: #34eaf7b7;
+}
+.progress {
+  height: 8px;
+}
+.objective-icon {
+  border-radius: 13px;
+  width: 8rem;
+}
+.partner-wap {
+  background-color: #72d3ec;
+  transition: 1s;
+  cursor: pointer;
+}
+.partner-wap:hover {
+  background-color: #b1e2f5;
+}
+.why-us {
+  background: rgb(239,239,253);
+  background: -moz-linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
+  background: -webkit-linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
+  background: linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efeffd",endColorstr="#ffffff",GradientType=1);
+}
+.team-member-img {
+  transition-duration: 0.15s;
+}
+.team-member:hover .team-member-img {
+  padding: 10px !important;
+}
+.person:hover{
+  border-radius:50%;
+-webkit-border-radius:50%;
+box-shadow: 0px 0px 15px 15px #5af0f5c0;
+-webkit-box-shadow: 0px 0px 15px 15px #a1f4fac7;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}
+
+/* Vuelos */
+/* Singel Work */
+#work_single_banner {
+  background-image: url('./../img/banner-bg-02.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.related-content {
+  border-radius: 20px;
+  cursor: pointer;
+}
+/* Paquetes */
+.pricing-list {
+  margin-bottom: 1px;
+}
+.pricing-table {
+  max-width: 350px;
+  margin: auto;
+}
+.pricing-table,
+.pricing-horizontal {
+  border-radius: 15px !important;
+}
+.btn-check:focus+.btn, .btn:focus {
+  box-shadow: 0 0 0 0.25rem rgb(64 145 27 / 50%);
+}
+.fondo{
+  padding-left: 0;
+  padding-right: 0;
+}
+.quote-package{
+  font-family: 'haiskey';
+  font-size: 3rem;
+  font-weight: 600;
+}
+.img-work{
+  width: 100%;
+}
+.btn-sub{
+  background-color: #34eaf7;
+}
+@media(max-width: 400px){
+  .h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.person{
+  width: 80%;
+  display: flex;
+  margin: auto;
+}
+.bg-footer{
+  width: 25%;
+  height: 30%;
+  justify-content: center;
+}
+.text-centro{
+  text-align: center;
+}
+.title-banner{
+  font-size: 1.5rem;
+  padding-bottom: 5px;
+  
+}
+.banner-content{
+  height: 300px;
+}
+#index_banner .carousel-control-prev i, #index_banner .carousel-control-next i{
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.pb-aux{
+  padding-bottom: 10px !important;
+}
+.py-aux{
+  padding-top: 10px !important;
+}
+.pt-aux{
+  padding-top: 10px !important;
+}
+.btn-group-lg>.btn, .btn-lg{
+  padding: 5px;
+  font-size: 1rem;
+}
+.btn-hide{
+  display: none;
+}
+.subtitle-banner{
+  font-size: 1.2rem;
+}
+.quote-package{
+  font-size: 1.8rem;
+}
+.h4{
+  font-size: 1rem;
+}
+.size{
+  font-size: 0.9rem;
+}
+.btn-consultas, .btn-somos{
+  padding: 1px;
+ font-size: 0.8rem;
+}
+.contenido{
+  padding-top: 10px !important;
+}
+.carusel-hide{
+  display: none;
+}
+}
+/* Contact */
+#floatingtextarea {
+  height: 150px
+}
+.quote-contact{
+  font-family: 'lucky';
+}
+.space {
+  margin-right: 1rem;
+}
+
+.form-control-my:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #65e6f7;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(78, 213, 236, 0.25);
+          box-shadow: 0 0 0 0.25rem rgba(70, 186, 240, 0.25);
+}
+
+.btn-send-msj{
+  background-color: rgba(183, 245, 91, 0.747) !important;
+}
+
+/* Footer */
+footer a.text-light:hover {
+  color: #bfbfbf !important;
+  transition-duration: 0.15s;
+}
