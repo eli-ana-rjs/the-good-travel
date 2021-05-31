@@ -4,6 +4,14 @@
 
 ### Proyecto TP 1 - Codo a Codo - Desarrollo Web Fullstack 💻
 
+<br />
+
+#### **Consigna** : A partir de una plantilla dada se deben realizar las modificaciones necesarias para que cambie la temática de la página.
+
+## Deploy
+
+### Puede ver el resultado final de este trabajo en el siguiente [link][https://brave-kepler-19371f.netlify.app] o en la [github pages de este repositorio][https://eli-ana-rjs.github.io/the-good-travel/]. 
+
 ## Vista previa del proyecto 🖌
 
 <br />
@@ -16,13 +24,17 @@
 
 <br />
 
-![vista-escritorio-modo-oscuro-imagen](https://github.com/eli-ana-rjs/)
 
-## Vista Mobile 📱
 
-![vista-mobile-modo-claro](https://github.com/eli-ana-rjs/) -->
+
+
+
 
 <br />
+
+## Aclaraciones 📢
+
+### En este trabajo todo esta desarrollado en la rama master porque se nos otorgo una plantilla con todos los archivos a los cuales se les tenían que realizar las modificaciones. ***Nunca debe trabajar se sobre la rama master, cada vez que lo hagas un**** 🦄 ***se va al cielo***
 
 ## Expresiones de Gratitud 🎁
 
