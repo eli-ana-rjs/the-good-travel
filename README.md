@@ -58,7 +58,7 @@
 
 ## Paquetes de viaje
 
-![paquetes de viaje](hhttps://github.com/eli-ana-rjs/the-good-travel/blob/master/assets/img/packages-md.png?raw=true)
+![paquetes de viaje](https://github.com/eli-ana-rjs/the-good-travel/blob/master/assets/img/packages-md.png?raw=true)
 
 <br />
 
