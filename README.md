@@ -10,7 +10,29 @@
 
 ## Deploy
 
-### Puede ver el resultado final de este trabajo en el siguiente [link][https://brave-kepler-19371f.netlify.app] o en la [github pages de este repositorio][https://eli-ana-rjs.github.io/the-good-travel/]. 
+### Puede ver el resultado final de este trabajo en el siguiente [link](https://brave-kepler-19371f.netlify.app) o en la [github pages de este repositorio](https://eli-ana-rjs.github.io/the-good-travel/). 
+
+<br />
+
+<br />
+
+## Puedes crear una copia de mi repositorio 📝
+
+<br />
+
+### Para clonar mi repo en tu computadora puedes seguir los siguientes pasos: 
+
+<br />
+
+1. Ve a mi [repositorio](https://eli-ana-rjs.github.io/generador-de-memes/)
+2. Haz click en el botón que dice fork
+3. Luego sobre el botón de color verde : `Code` 
+4. Copia la URL que allí aparece
+5. Abre tu terminal y pon el comando de ``` git clone <url>```
+6. Entra a la carpeta del proyecto y abrelo desde tu IDE
+7.  Listo!
+
+<br />
 
 ## Vista previa del proyecto 🖌
 
@@ -22,7 +44,36 @@
 
 ## Vista escritorio 💻
 
+## Home
+
+![home](https://github.com/eli-ana-rjs/the-good-travel/blob/master/assets/img/home-md.png?raw=true)
+
 <br />
+
+## Sobre Nosotros
+
+![sobre nosotros](https://github.com/eli-ana-rjs/the-good-travel/blob/master/assets/img/about-md.png?raw=true)
+
+<br />
+
+## Paquetes de viaje
+
+![paquetes de viaje](hhttps://github.com/eli-ana-rjs/the-good-travel/blob/master/assets/img/packages-md.png?raw=true)
+
+<br />
+
+## Vuelos
+
+![vuelos](https://github.com/eli-ana-rjs/the-good-travel/blob/master/assets/img/vuelos-md.png?raw=true)
+
+<br />
+
+## Contacto
+
+![contacto](https://github.com/eli-ana-rjs/the-good-travel/blob/master/assets/img/contact-md.png?raw=true)
+
+<br />
+
 
 
 
