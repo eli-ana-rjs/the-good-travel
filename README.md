@@ -24,7 +24,7 @@
 
 <br />
 
-1. Ve a mi [repositorio](https://eli-ana-rjs.github.io/generador-de-memes/)
+1. Ve a mi [repositorio](https://github.com/eli-ana-rjs/the-good-travel)
 2. Haz click en el botón que dice fork
 3. Luego sobre el botón de color verde : `Code` 
 4. Copia la URL que allí aparece
@@ -85,7 +85,7 @@
 
 ## Aclaraciones 📢
 
-### En este trabajo todo esta desarrollado en la rama master porque se nos otorgo una plantilla con todos los archivos a los cuales se les tenían que realizar las modificaciones. ***Nunca debe trabajar se sobre la rama master, cada vez que lo hagas un**** 🦄 ***se va al cielo***
+### En este trabajo todo esta desarrollado en la rama master porque se nos otorgo una plantilla con todos los archivos a los cuales se les tenían que realizar las modificaciones. ***Nunca debe trabajar se sobre la rama master, cada vez que lo hagas un*** 🦄 ***se va al cielo***
 
 ## Expresiones de Gratitud 🎁
 
