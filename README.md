@@ -91,7 +91,7 @@
 
 <br />
 
-### Agradzco al profesor Gabriel Feldman por la buena onda que le pone a todas las clases y a mis compañeros de codo a codo comisión 2104 por la buena predisposición que tienen siempre.
+### Agradezco al profesor Gabriel Fedlman por la buena onda que le pone a todas las clases y a mis compañeros de codo a codo comisión 2104 por la buena predisposición que tienen siempre.
 
 <br />
 
